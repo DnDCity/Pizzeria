@@ -1,0 +1,31 @@
+Actors
+
+Joe
+  Views Daily Order Report
+  Tally Daily Orders
+  Count Money Received during day
+ 
+Customers
+  Create Order
+  Add Pizzas to Order
+  Specify Size of Pizza
+  Specify Crust type of Pizza
+  Specify Toppings on Pizza
+  Place Order
+  Pay for Order
+  Sit Sit Down
+  Eat Pizza
+  Go Elsewhere
+
+Cook
+  Receives Order
+  Cooks Pizza
+  Marks Order as Ready
+  Place order in outbin
+
+Server
+  Pick up Order and Pizzas
+  Deliver Pizza to Customer
+  Marks order as Delivered
+  Puts Order in Shoebox
+

@@ -1,0 +1,14 @@
+Objects
+
+  Order
+    Price
+    Status (Ordered, PaidFor, Cooking, Done, Delivered)
+    Pizza(s)(Quantity)
+      CrustType
+      Size
+      Toppings
+
+Chair
+
+Order Taker
+
