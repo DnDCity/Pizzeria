@@ -1,0 +1,9 @@
+= simple_form_for(@crust_type) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :name
+    = f.input :price_modifier
+
+  .form-actions
+    = f.button :submit

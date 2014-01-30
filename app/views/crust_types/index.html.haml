@@ -1,0 +1,21 @@
+%h1 Listing crust_types
+
+%table
+  %tr
+    %th Name
+    %th Price modifier
+    %th
+    %th
+    %th
+
+  - @crust_types.each do |crust_type|
+    %tr
+      %td= crust_type.name
+      %td= crust_type.price_modifier
+      %td= link_to 'Show', crust_type
+      %td= link_to 'Edit', edit_crust_type_path(crust_type)
+      %td= link_to 'Destroy', crust_type, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Crust type', new_crust_type_path

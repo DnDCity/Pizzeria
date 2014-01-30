@@ -1,6 +1,7 @@
 Objects
 
   Order
+    Customer Name
     Price
     Status (Ordered, PaidFor, Cooking, Done, Delivered)
     Pizza(s)(Quantity)

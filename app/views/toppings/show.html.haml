@@ -1,0 +1,9 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @topping.name
+
+= link_to 'Edit', edit_topping_path(@topping)
+\|
+= link_to 'Back', toppings_path

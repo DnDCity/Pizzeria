@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @crust_type.name
+%p
+  %b Price modifier:
+  = @crust_type.price_modifier
+
+= link_to 'Edit', edit_crust_type_path(@crust_type)
+\|
+= link_to 'Back', crust_types_path

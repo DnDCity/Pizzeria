@@ -1,0 +1,11 @@
+= simple_form_for(@pizza) do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.association :order
+    = f.input :quantity
+    = f.association :size
+    = f.association :crust_type
+
+  .form-actions
+    = f.button :submit
